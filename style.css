@@ -1,0 +1,35 @@
+body
+{
+    background-color: beige;
+    background-image: url(images/istockphoto-1019217082-1024x1024.jpg);
+}
+.container
+{
+    width: 500px;
+    height: 100vh;
+    
+    margin: 3rem auto;
+    
+    
+    align-items: center;
+}
+img
+{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    border-radius: 40px
+}
+img:hover
+{
+    box-shadow: 1px 5px 10px 15px rgb(120, 157, 188);
+}
+.bi
+{
+    color: red;
+}
+.bi:hover
+{ 
+    color: rgb(184, 137, 137);
+  
+}
